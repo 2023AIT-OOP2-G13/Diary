@@ -2,8 +2,8 @@ from diaries.AbstractDiary import AbstractDiary
 class HazukaDiary(AbstractDiary):
 
     def get_date(self):
-        return "2021-12-01"
+        return "2021-12-19"
     def get_summary(self):
-        return "なにもない一日だった"
+        return "今日はカレーを食べた"
     def get_author(self):
-        return "Sample"
+        return "羽塚 優哉"
