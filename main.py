@@ -6,6 +6,7 @@ from diaries.KinoshitaDiary import KinoshitaDiary
 from diaries.YamakadoDiary import YamakadoDiary
 from diaries.YuichiDiary import Yuichisample
 from diaries.HazukaDiary import HazukaDiary
+from diaries.OtaDiary import OtaDiary
 # ↓のリストには、メンバーの各日記が格納されます。
 
 diaries = [
@@ -16,10 +17,10 @@ diaries = [
     KinoshitaDiary(),
     YamakadoDiary(),
     Yuichisample(),
-    HazukaDiary(),]
+    HazukaDiary(),
+    OtaDiary(),
+    ]
 
-
-main
 for d in diaries:
     print("---------------------------------")
     print(d.get_date())
